@@ -62,9 +62,12 @@ The methodology focuses on:
 The methodology's central principle is that **operational meaning is captured before any standard, schema, or architecture is chosen**.
 
 The methodology prioritizes:
-1. understanding the municipality operational intent,
-2. identifying reusable semantic capabilities,
-3. and only then evaluating how ecosystem participants may contribute standards, semantic models, Smart Data Models, validation approaches, and Digital Twin integration mechanisms.
+1. **understanding the municipality operational intent,** to identify the object or area of interest, the context, the relevant quantities, the observation levels, and the technically feasible measurements.
+2. **identifying reusable semantic capabilities,** and framing them as something that any compatible solution should be able to express. Instead of saying “use this field from this product,” the requirement is defined in terms of the meaning that must be preserved, so that different municipalities and suppliers can meet the same requirement without having to adopt a single architecture or technology.
+3. and only then the ecosystem evaluates **how can be met those requirements by selecting** from its standards and comparing the required meaning with the concepts, entities, properties, and mechanisms provided by its models.
+4. and finally **turns the analysis into a representation** based on Smart Data Models, that can be used and shared: entities and properties, types and units, relationships, temporal and spatial context, and metadata that prevent information from being lost about how a value was obtained or which scope it applies to.
+
+**End-to-end traceability** has been deliberately built in: every element of the model should be justifiable in terms of an operational need, traceable through a semantic requirement, and linked to a standards mapping (or gap). This reduces the risk of creating technically correct schemas that are disconnected from the city’s needs, and helps ensure that the meaning of the KPI displayed in the digital twin matches what the device manufacturer was actually measuring.
 
 If analysis begins too early with standards, schemas, APIs, or implementation models, important operational meaning may be lost. Each stage applies the principle in its own way:
 
