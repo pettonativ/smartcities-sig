@@ -11,7 +11,7 @@ Since its launch, the SmartCities Special Interest Group (SIG) has been diligent
 Our research identifies:
 - Essential capabilities municipalities need for urban management
 - Data requirements for Digital Twins
-- Existing open standards addressing these needs—and where critical gaps remain
+- Existing open standards and open source initiatives addressing these needs—and where critical gaps remain
 
 We are excited to present these early results live in Barcelona at Smart City Expo World Congress 2026!
 
