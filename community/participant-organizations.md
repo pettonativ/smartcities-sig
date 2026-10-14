@@ -86,6 +86,20 @@ OMA views the Smart Cities SIG as a collaborative ecosystem initiative intended 
 * [OMA LwM2M Registry](https://github.com/OpenMobileAlliance/lwm2m-registry)
 * [OMA Website](https://www.openmobilealliance.org/)
 
+## FIWARE TSC and FIWARE Foundation positioning
+
+FIWARE ([website](https://fiware.org/), [github](https://github.com/FIWARE)) brings a suite of open source components, implementing open standards, which can be picked to be integrated together and/or with other components from third parties to build platforms that ease the creation of smart applications and the digital transformation of organizations into smart organizations playing an active role in the Data Economy (smart cities, smart factories, smart farms, smart logistics operators, etc.). Development of FIWARE started in 2011 with the first companies delivering commercial products based on FIWARE already in 2015\. Since then, [**400+ cities in 35+ countries worldwide**](https://fiware.org/about-us/smart-cities/fiware4cities-book/) **have deployed smart city solutions or built their entire smart city architecture based on FIWARE**.
+
+Any software architecture “powered by FIWARE” is built around management of digital twin data. FIWARE provides open source implementations of the ETSI NGSI-LD API ([website](https://ngsi-ld.org/), [specs](https://www.etsi.org/standards/#search=Core%20API&startDate=2026-01-15&&keyword=NGSI-LD)) enabling management of and access to digital twin data. The combination of the NGSI-LD API together with data models published under the Smart Data Models initiative ([website](https://smartdatamodels.org/), [github](https://github.com/smart-data-models)) provides the basis for interoperability of smart solutions within a city (Air Quality Management, Traffic Control, Waste Management, Public Lighting, etc.) and their replication/portability across multiple cities.
+
+The FIWARE Technical Steering Committee (TSC) is the body within the FIWARE Community that governs the technical direction of FIWARE. FIWARE Foundation, on the other hand, is a non-profit association which brings together members of the FIWARE Community and gives them support in their activities. For example, it supports the coordination of the Smart Data Models initiative.
+
+Members of the FIWARE Community, the FIWARE TSC and the FIWARE Foundation participate actively in the Smart Cities SIG and adhere to its methodology with the aim of:
+
+- driving identification and further curation of smart data models driven by city needs  
+- supporting identification of OMA objects that may feed smart digital twin-based systems using smart data models
+
+This will support practical materialization of standards-based software architectures for smart cities based on FIWARE, implementing an effective end-to-end bidirectional pipeline between OMA-compliant devices and context broker implementations managing the digital twin data representation of the city.
 
 ## Paradox Engineering SA Positioning
 
