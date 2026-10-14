@@ -16,7 +16,7 @@ It explains how to access the collaboration tools, where to find key information
 
 ## Quick Start
 
-1. [Join](https://groups.io/g/smartcities-sig) the Smart Cities SIG community.
+1. [Join](https://groups.io/g/smartcities-sig) the Smart Cities SIG community on Groups.io.
 2. Provide your GitHub username.
 3. Subscribe to the SIG [calendar](https://groups.io/g/smartcities-sig/calendar).
 4. Review the [Charter](/about-us/governance/charter.md) and [Methodology](/methodology/core-methodology/methodology-overview.md).
@@ -29,8 +29,8 @@ It explains how to access the collaboration tools, where to find key information
 
 To participate in the Smart Cities SIG:
 
-1. Submit a [request](https://groups.io/g/smartcities-sig) to join the Smart Cities SIG community.
-2. Provide your company email address.
+1. Submit a [request](https://groups.io/g/smartcities-sig) to join the Smart Cities SIG community as representative of your organization.
+2. Provide your email address at your organization.
 3. Provide your GitHub username.
 
 Your GitHub username is required to:
