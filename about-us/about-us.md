@@ -6,19 +6,19 @@ layout: doc
 
 # {{ $doc.title }}
 
-The Smart Cities Special Interest Group (SIG) was initiated by Madrid Digital Capital @ Madrid City Council, and is facilitated by the [Open Mobile Alliance (OMA)](https://www.openmobilealliance.org/media/articles/2026-05-25-oma-smartcities-sig-kickoff-news/) and [AIOTI](https://aioti.eu/cities-5-0/).
+The Smart Cities Special Interest Group (SIG) was initiated by Madrid Digital Capital @ Madrid City Council, and is facilitated by the [Open Mobile Alliance (OMA)](https://www.openmobilealliance.org/media/articles/2026-05-25-oma-smartcities-sig-kickoff-news/) with active participation of members of the [FIWARE Community](https://fiware.org) involved in the Smart Data Models initiative ([website](https://smartdatamodels.org/), [github](https://github.com/smart-data-models)) and members of the [AIOTI Smart Cities 5.0 WG](https://aioti.eu/cities-5-0/).
 
 The initiative was created to help municipalities, industry, academia, and standards organizations collaborate on practical smart city interoperability challenges using reusable and standards-based approaches.
 
 ## Why This Initiative
 
-Smart city deployments often involve multiple vendors, platforms, standards, and operational domains. To address the complexity of these integrations, this SIG separates the data relevant to city operations from the technologies that collect it. 
+Smart city deployments often involve multiple vendors, platforms, standards, and operational domains. To address the complexity of these integrations, this SIG separates the data relevant to city operations from the technologies that collect, manage and process data. 
 
-The Smart Cities SIG seeks to improve interoperability by helping stakeholders identify common requirements, reuse existing standards where appropriate, and validate interoperability approaches through collaborative Proof of Concept activities.
+The Smart Cities SIG seeks to improve interoperability by helping stakeholders identify common requirements on digital twin data, reuse existing standards and best practices for representation of digital twin data, and validate interoperability approaches through collaborative Proof of Concept activities.
 
 ## Who We Serve
 
-The Smart Cities SIG brings together stakeholders involved in the planning, deployment, operation, and standardization of smart city solutions, including:
+The Smart Cities SIG brings together stakeholders involved in the planning, design, development, deployment, operation, and standardization of smart city solutions, including:
 
 - Municipalities and local governments: For business experts (in public services) who are new to new technologies, the proliferation of public and proprietary protocols and standards creates uncertainty and delays decision-making.
 - Public agencies and utilities: The wide range of potential differences in service delivery makes it difficult to take advantage of economies of scale.
@@ -31,32 +31,25 @@ By collaborating across these communities, the SIG seeks to accelerate the adopt
 
 ## What We Do
 
-The Smart Cities SIG explores interoperability challenges across smart city domains and develops reusable outputs that can support future standards, implementations, and ecosystem collaboration.
+The Smart Cities SIG explores challenges and requirements in multiple smart city focus areas and develops reusable assets that can support future standards, implementations, and ecosystem collaboration following a well-defined methodology. Among these assets, it will produce:
+- a set of smart data models to be published under the Smart Data Models initiative ([website](https://smartdatamodels.org/), [github](https://github.com/smart-data-models)) which will provide the basis for building the digital twin data representation of the City
+- a set of OMA objects specifications cities can take as reference to determine what devices they can deploy to feed systems managing the digital twin data representation of the City
+- an analysis on how to translate from OMA objects into smart data models to ensure portability end-to-end between devices and the systems managing the digital twin data representation of the City
+
+Complementing these core outputs, additional assets may be produced including mapping to relevant standards, interoperability profiles, proof of concept reports, position papers or implementation guidelines.
 
 See the <a href="/governance/charter.md" target="blank">Charter</a> for detailed objectives and scope.
 
-## Current Focus
+## Initial Focus
 
 The initial focus areas of the Smart Cities SIG are:
 
 - [Public Lighting Profile](/profiles/lighting/public-lighting-walkthrough.md)
 - [Smart Water Metering Profile](/profiles/water/public-watering-walkthrough.md)
 
-Additional profile areas may be introduced based on ecosystem interest and contributor participation.
+Additional focus areas may be introduced based on ecosystem interest and contributor participation.
 
 > The initiative is working toward the completion of its initial deliverables and Proof of Concept activities in time to share findings, lessons learned, and reusable outputs at Smart City Expo World Congress 2026 in Barcelona.
-
-## Expected Outputs
-
-The Smart Cities SIG develops practical and reusable artifacts that can be adopted by municipalities, solution providers, and standards organizations, including:
-
-- Interoperability requirements
-- Gap analyses
-- Standards mappings
-- Semantic data models
-- Smart City Profiles
-- Proof of Concept reports
-- Position papers and implementation guidance
 
 ## Approach
 
@@ -84,13 +77,13 @@ These documents describe the initiative, participation expectations, collaborati
 
 ## Getting Started
 
-> Contributions are welcomed from municipalities, government agencies, technology providers, standards organizations, academic institutions, and other stakeholders involved in smart city initiatives.
+> Contributions are welcomed from municipalities, government agencies, technology providers, open source initiatives, standards organizations, academic institutions, and other stakeholders involved in smart city initiatives.
 
-Participation in the Smart Cities SIG is open to individuals and organizations interested in contributing to the development of reusable, standards-based smart city interoperability guidance.
+Participation in the Smart Cities SIG is open to individuals and organizations interested in contributing to the development of reusable, standards-based smart city interoperability assets.
 
-To contribute, participants are required to submit a [**request**](https://groups.io/g/smartcities-sig) to join the SIG and provide their company email address and GitHub username. The GitHub username is required to enable contributions to the repository and to grant access to the private repository where meeting minutes are maintained.
+To contribute, participants are required to submit a [**request**](https://groups.io/g/smartcities-sig) to join the SIG and provide the email address and GitHub username of organization representatives. The GitHub username is required to enable contributions to the repository and to grant access to the private repository where meeting minutes are maintained.
 
-The Smart Cities SIG meets once per month to review progress, discuss emerging requirements, and coordinate ongoing work. After joining the SIG, participants are encouraged to subscribe to the Smart Cities SIG calendar to receive meeting invitations and schedule updates.
+The Smart Cities SIG meets at least once per month to review progress, discuss emerging requirements, and coordinate ongoing work. After joining the SIG, participants are encouraged to subscribe to the Smart Cities SIG calendar to receive meeting invitations and schedule updates.
 
 Once access is approved, participants can review the SIG materials, provide comments, contribute proposed content, and take part in the collaborative development of Smart City Profiles and related outputs.
 
