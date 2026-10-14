@@ -99,6 +99,21 @@ Paradox Engineering will contribute to the Smart Cities SIG through:
 
 The primary objective in this initiative is to demonstrate the tangible, real-world value that interoperability delivers to municipalities and utilities — enabling them to build resilient, future-proof, and highly adaptive smart city ecosystems, built to last throughout innovations in technology and evolutions of needs. Paradox Engineering is fully committed to serving as a trusted, experienced voice, helping cities build simple, reliable and secure IoT infrastructures.
 
+## SEAMWARE Positioning
+
+SEAMWARE (Seamless Middleware Technologies SL) is a non-profit company that was established to contribute to the sustainability of open source software projects in general, with an initial focus on key projects related to FIWARE ([website](https://fiware.org/), [github](https://github.com/FIWARE)).
+
+Currently, the company focuses on:
+
+- research and development projects that accelerate the FIWARE roadmap (the evolution of existing components and the development of new ones) and/or the adoption of FIWARE across different application domains,  
+- the provision of training, technical support and ongoing enhancement services for FIWARE components (see the section later in this document).
+
+SEAMWARE brings together the lead developers of key FIWARE software components (Orion-LD and Careine, implementing the ETSI NGSI-LD, advanced IAM based on Verifiable Credentials, Data Space Components, etc) as well as the coordination of the community-driven Smart Data Model initiative  ([website](https://smartdatamodels.org/), [github](https://github.com/smart-data-models)).
+
+SEAMWARE welcomes creation of the Smart Cities SIG as it will help to define a complete Interoperability Profile that cities can take as reference for materializing their Smart City architecture integrating smart solutions from different vendors using a Digital Twin-based System-of-Systems approach.
+
+SEAMWARE will contribute their expertise on Smart Data Models to the Smart Cities SIG and wide experience materializing digital twin-based smart cities powered by FIWARE.
+
 ## Libelium Positioning
 
 **Libelium** develops IoT sensing and software solutions for smart cities and infrastructure, connecting physical-world observations with urban data platforms, data spaces, and digital twins. Through its sensing technologies and **iris360** platform, Libelium brings an end-to-end perspective on how data is generated, managed, shared, and transformed into actionable information for municipalities.
