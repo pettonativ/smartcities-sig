@@ -29,6 +29,7 @@ The walkthrough follows the three-stage methodology described in:
 - [Stage-1-operational-meaning.md](./stage-1-operational-meaning.md)
 - [Stage-2-reusable-abstractions.md](./stage-2-reusable-abstractions.md)
 - [Stage-3-standards-mapping.md](./stage-3-standards-mapping.md)
+- [Stage-4-standards-mapping.md](./stage-4-smart-data-models-realization.md)
 
 ---
 
@@ -434,6 +435,10 @@ These contributions may help preserve:
 - and interoperability alignment.
 
 ---
+
+
+
+# Stage 4 — Digital Twin on Smart Data Models
 
 ## Smart Data Models as Semantic Integration Mechanisms
 
