@@ -141,6 +141,9 @@ Several modelling rules shoul de madee explicit, so that implementers can build 
 - The OMA data-model tooling [https://devtoolkit.openmobilealliance.org/OEditor/](https://devtoolkit.openmobilealliance.org/OEditor/), and the Smart Data Models development branch. [https://github.com/smart-data-models/incubated/tree/master/SMARTSENSORING/OMA-UCIFI](https://github.com/smart-data-models/incubated/tree/master/SMARTSENSORING/OMA-UCIFI), are cited in the source document as implementation references. 
 - The IoT laboratory of the City of Madrid is also referenced in the source material. https://iotmadlab.es
 
+
+# Stage 4 — Digital Twin on Smart Data Models
+
 ## Smart Data Models as Semantic Integration Mechanisms 
 
 ## Digital Twin Consumption Perspective 
