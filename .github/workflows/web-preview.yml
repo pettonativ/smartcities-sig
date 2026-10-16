@@ -73,7 +73,7 @@ jobs:
           URL=$(npx vercel deploy --token "$VERCEL_TOKEN" \
             --build-env CONTENT_REF_OVERRIDES="$OVERRIDES" \
             --env CONTENT_REF_OVERRIDES="$OVERRIDES")
-          npx vercel alias set "$URL" "$ALIAS" --token "$VERCEL_TOKEN"
+          npx vercel alias set "$URL" "$ALIAS" --token "$VERCEL_TOKEN" --scope elastic-hub
           echo "url=https://$ALIAS" >> "$GITHUB_OUTPUT"
         env:
           HEAD_REF: ${{ github.event.pull_request.head.ref }}
