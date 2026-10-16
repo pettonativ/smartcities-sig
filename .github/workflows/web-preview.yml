@@ -67,6 +67,20 @@ jobs:
           curl -fsS -X DELETE -H "Authorization: Bearer $VERCEL_TOKEN" \
             "https://api.vercel.com/v2/aliases/$ALIAS?teamId=$VERCEL_ORG_ID" || true
 
+      - name: Timestamp
+        id: time
+        run: echo "now=$(date -u '+%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
+
+      - name: Comment - building
+        if: steps.flag.outputs.enabled == 'true' && github.event.action != 'closed'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: web-preview
+          message: |
+            | Project | Branch | Deployment | Actions | Updated |
+            | :--- | :--- | :--- | :--- | :--- |
+            | ${{ github.event.repository.name }} | `${{ github.event.pull_request.head.ref }}` @ ${{ github.event.pull_request.head.sha }} | 🟡 Building | – | ${{ steps.time.outputs.now }} |
+
       - name: Deploy preview
         if: steps.flag.outputs.enabled == 'true' && github.event.action != 'closed'
         id: deploy
@@ -86,13 +100,22 @@ jobs:
         env:
           HEAD_REF: ${{ github.event.pull_request.head.ref }}
 
-      - name: Comment preview URL
+      - name: Comment - ready
         if: steps.deploy.outcome == 'success'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: web-preview
           message: |
-            🔍 **Web preview** for `${{ github.event.pull_request.head.ref }}` @ ${{ github.event.pull_request.head.sha }}
-            ${{ steps.deploy.outputs.url }}
+            | Project | Branch | Deployment | Actions | Updated |
+            | :--- | :--- | :--- | :--- | :--- |
+            | ${{ github.event.repository.name }} | `${{ github.event.pull_request.head.ref }}` @ ${{ github.event.pull_request.head.sha }} | 🟢 Ready | [Preview](${{ steps.deploy.outputs.url }}) · [Redeploy](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) | ${{ steps.time.outputs.now }} |
 
-            🔄 [Re-run this preview](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) (opens the run, then click **Re-run all jobs**)
+      - name: Comment - failed
+        if: failure() && steps.deploy.outcome == 'failure'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: web-preview
+          message: |
+            | Project | Branch | Deployment | Actions | Updated |
+            | :--- | :--- | :--- | :--- | :--- |
+            | ${{ github.event.repository.name }} | `${{ github.event.pull_request.head.ref }}` @ ${{ github.event.pull_request.head.sha }} | 🔴 Failed | [Logs](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) · [Redeploy](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) | ${{ steps.time.outputs.now }} |
