@@ -49,8 +49,6 @@ Madrid views the **Smart Cities SIG** as a collaborative ecosystem initiative in
 
 ## AIOTI Positioning
 
-<img src="../public/images/aioti-logo.png" alt="AIOTI — Alliance for AI, IoT and Edge Continuum Innovation" width="320">
-
 The [Alliance for AI, IoT and Edge Continuum Innovation (AIOTI)](https://aioti.eu/) participates in the Smart Cities SIG through its [Cities 5.0 Working Group](https://aioti.eu/cities-5-0/), whose scope covers the selection of standards, interoperability, scalability, energy efficiency and green enablement, smart transportation, e-services, disaster preparedness and resilience, and convergence to Digital Twins.
 
 AIOTI participates in the Smart Cities SIG as:
